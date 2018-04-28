@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{3DBFA584-6515-4EEC-9B0C-0B9BB9081D8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "utility", "utility", "{9A5C8AEB-10BE-467E-A3EF-37787B0C3646}"
+	ProjectSection(SolutionItems) = preProject
+		utility\interface_base.h = utility\interface_base.h
+		utility\raii_wrapper.h = utility\raii_wrapper.h
+		utility\singleton.h = utility\singleton.h
+		utility\singleton_interface_base.h = utility\singleton_interface_base.h
+		utility\thread_wrapper.h = utility\thread_wrapper.h
+		utility\uncopyable.h = utility\uncopyable.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "define", "define", "{BD45146A-1654-433E-BEBD-B3CB7F384B5B}"
+	ProjectSection(SolutionItems) = preProject
+		define\buffer_def.h = define\buffer_def.h
+		define\string_def.h = define\string_def.h
+		define\zaku_namespace_def.h = define\zaku_namespace_def.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DBFA584-6515-4EEC-9B0C-0B9BB9081D8D}.Debug|x64.ActiveCfg = Debug|x64
+		{3DBFA584-6515-4EEC-9B0C-0B9BB9081D8D}.Debug|x64.Build.0 = Debug|x64
+		{3DBFA584-6515-4EEC-9B0C-0B9BB9081D8D}.Debug|x86.ActiveCfg = Debug|Win32
+		{3DBFA584-6515-4EEC-9B0C-0B9BB9081D8D}.Debug|x86.Build.0 = Debug|Win32
+		{3DBFA584-6515-4EEC-9B0C-0B9BB9081D8D}.Release|x64.ActiveCfg = Release|x64
+		{3DBFA584-6515-4EEC-9B0C-0B9BB9081D8D}.Release|x64.Build.0 = Release|x64
+		{3DBFA584-6515-4EEC-9B0C-0B9BB9081D8D}.Release|x86.ActiveCfg = Release|Win32
+		{3DBFA584-6515-4EEC-9B0C-0B9BB9081D8D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F738489-7EB0-4F8A-B9BF-E36577B58F81}
+	EndGlobalSection
+EndGlobal
